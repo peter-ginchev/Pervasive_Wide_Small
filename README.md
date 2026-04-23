@@ -34,7 +34,7 @@ The driver library can be used stand-alone or with the [Pervasive Displays Libra
 * [Application Note for 1.52" of wide temperature EPDs](https://www.pervasivedisplays.com/wp-content/uploads/2023/12/ApplicationNote_1.52-inch_wide-Temperature_EPD_v01_20231225_A.pdf)
 * [Application Note for small sizes of wide temperature EPDs](https://www.pervasivedisplays.com/wp-content/uploads/2023/02/ApplicationNote_Small_Size_wide-Temperature_EPD_v03_20231031_B.pdf)
 * [Pervasive Displays Technical Wiki](https://docs.pervasivedisplays.com/) 
-* [Pervasive Displays, Inc. (龍亭新技股份有限公司)](https://www.pervasivedisplays.com/)
+* [Pervasive Displays Inc. (龍亭新技股份有限公司)](https://www.pervasivedisplays.com/)
 * [Product line](https://www.pervasivedisplays.com/products/)
 
 ## Support
@@ -71,11 +71,9 @@ Hardware
 
 ## Licence
 
-**Copyright** &copy; Pervasive Displays, 2010-2025
+**Copyright** &copy; Pervasive Displays Inc., 2021-2026
 
 *For exclusive use with Pervasive Displays screens*
 
 **Licence** [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](./LICENCE.md)
-
-**Portions** &copy; Rei Vilo, 2010-2025
 
