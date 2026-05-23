@@ -252,7 +252,7 @@ void Pervasive_Wide_Small::COG_initial(uint8_t updateMode)
             b_waitBusy(LOW); // 150 and 152 specific
 
             // Work settings
-            b_sendCommandData8(0x1a, u_temperature); //default is 25C but requires an external sensor for ambient temp
+            b_sendCommandData8(0x1a, u_temperature);
 
             if (updateMode == UPDATE_NORMAL)
             {
@@ -274,13 +274,13 @@ void Pervasive_Wide_Small::COG_initial(uint8_t updateMode)
             // FILM_K already checked
             if (updateMode != UPDATE_NORMAL) // Specific settings for fast update
             {
-                indexTemperature = u_temperature | 0x40; // temperature | 0x40 ; default is 25C but requires an external sensor for ambient temp
+                indexTemperature = u_temperature | 0x40; // temperature | 0x40
                 index00_work[0] = COG_data[0] | 0x10; // PSR0 | 0x10
                 index00_work[1] = COG_data[1] | 0x02; // PSR1 | 0x02
             }
             else // Common settings
             {
-                indexTemperature = u_temperature; // Temperature; default is 25C but requires an external sensor for ambient temp
+                indexTemperature = u_temperature; // Temperature
                 index00_work[0] = COG_data[0]; // PSR0
                 index00_work[1] = COG_data[1]; // PSR1
             } // u_codeExtra updateMode
