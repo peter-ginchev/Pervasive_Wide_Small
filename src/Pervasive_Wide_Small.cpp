@@ -424,6 +424,11 @@ void Pervasive_Wide_Small::COG_stopDCDC()
             b_waitBusy();
             break;
     }
+	
+	// Additional steps for Power OFF
+	// clear D/C, RESET, CS, SPI pins to LOW
+	// keep BUSY floating
+	// cut Vcc off
 }
 //
 // --- End of Small screens with K film
