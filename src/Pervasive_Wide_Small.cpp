@@ -25,7 +25,7 @@
 // Release 901: Added support for screen 340-KS-0G
 // Release 903: Removed unlisted screens
 // Release 904: Fixed OTP array size
-//
+// Release 905: Minor fixes
 
 // Header
 #include "Pervasive_Wide_Small.h"
